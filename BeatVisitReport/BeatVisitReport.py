@@ -117,7 +117,7 @@ for url in TARGET_VIEW_URLS:
 msg.attach(MIMEText(html_body, 'html'))
 
 # === Attach All PDFs in OUTPUT_DIR ===
-OUTPUT_DIR = "./pdf_exports"  # same as used during PDF export
+
 pdf_files = [f for f in os.listdir(OUTPUT_DIR) if f.lower().endswith(".pdf")]
 
 for filename in pdf_files:
