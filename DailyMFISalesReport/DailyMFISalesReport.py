@@ -15,7 +15,7 @@ USERNAME = "renu.sharma@dharmalifelabs.com"
 PASSWORD = "Nammu11@2023"
 SITE_ID = "Dharmalife"  
 TARGET_VIEW_URLS = [
-    "DailySalesReportB2CMFITB/MFIDailySalesReport"
+    "DailySalesReportB2CMFITB/sheets/MFIDailySalesReport"
 ]
 OUTPUT_DIR = "./pdf_exports"
 # Clear the output directory
