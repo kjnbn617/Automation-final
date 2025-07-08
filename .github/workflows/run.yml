@@ -4,8 +4,9 @@ on:
   schedule:
     - cron: '30 3 * * *'   # 9:00 AM IST
     - cron: '30 10 * * *'   # 4:00 PM IST
-    - cron: '30 11 * * *'  # 5:00 PM IST
-
+    # - cron: '30 11 * * *'  # 5:00 PM IST
+    - cron: '0 12 * * *'   # 5:25 PM IST
+    
 
 jobs:
   run-report:

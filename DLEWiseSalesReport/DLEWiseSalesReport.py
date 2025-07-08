@@ -26,7 +26,7 @@ os.makedirs(OUTPUT_DIR)        # Recreate the empty directory
 
 SMTP_SERVER = "smtp.office365.com"
 EMAIL_FROM = "reports@dharmalifelabs.com"
-EMAIL_TO = ["jatin.kumar@dharmalifelabs.com"]
+EMAIL_TO = ["jatin.kumar@dharmalifelabs.com","seeram.chandu@dharmalifelabs.com"]
 
 # === AUTHENTICATE WITH TABLEAU === 
 # tableau_auth = TSC.TableauAuth(USERNAME, PASSWORD, site_id="Dharmalife")
